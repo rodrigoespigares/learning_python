@@ -6,9 +6,3 @@ class Molino(MaquinaMecanica):
         self.tipoDeMolino = tipoDeMolino
     def info(self):
         return "{} Molino de : {}".format(super().info(), self.tipoDeMolino)
-    
-
-molinito = Molino("Aire", "po yo que se", "NPI", "NATURALEZA")
-
-
-print(molinito.info())

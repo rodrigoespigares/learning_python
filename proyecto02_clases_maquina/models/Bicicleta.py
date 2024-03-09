@@ -11,15 +11,3 @@ class Bicicleta(MaquinaMecanica):
         self.totalKM = 0
     def info(self):
         return "{} Radio: {}, Kilometros: {}".format(super().info(), self.radioRueda, self.totalKM)
-    
-
-
-
-
-bisi = Bicicleta("Orbea","PAPAP","ANIMAL", 18)
-bisi2 = Bicicleta("Bisi2","Bisiclista")
-
-
-
-print(bisi.info())
-print(bisi2.info())
